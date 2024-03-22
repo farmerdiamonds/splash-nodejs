@@ -1,6 +1,5 @@
 import { createNode } from './modules/splashnode.mjs';
 
-const protocol = '/splash/kad/1';
 const topic = '/splash/offers/1';
 
 const node = await createNode();
