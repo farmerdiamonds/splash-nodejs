@@ -19,7 +19,7 @@ async function createNode() {
       maxIncomingPendingConnection: 5
     },
     addresses: {
-      listen: ['/ip4/127.0.0.1/tcp/15000']
+      listen: ['/ip4/127.0.0.1/tcp/0']
     },
     transports: [tcp()],
     connectionEncryption: [noise()],
